@@ -1,0 +1,49 @@
+html{
+    max-width: 80%;    
+    margin: auto;
+    padding: 7em;
+    padding-top: 2em;
+    background-color: white;
+    /*border: 2pix, solid, greenyellow;*/
+    ;
+    
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    color: red;
+    border: 2pix,solid,purple;
+
+}
+body {
+    background-color: rgb(43, 183, 226);   
+    text-align: center;
+   
+    box-shadow: inset 16px -6px 2px 3px #3a942f1a;
+    
+}
+
+p {
+    color: rgb(200, 255, 0);
+    font-size: 1rem; 
+     margin: auto;    
+    text-align: center; 
+    font-weight: bolder;
+    line-height: 1em;
+
+}
+
+{
+
+}
+
+
+
+
+
+
+
+
+
+
