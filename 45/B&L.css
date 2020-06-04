@@ -1,0 +1,65 @@
+html{
+    max-width: 80%;    
+    margin: auto;
+    padding: 7em;
+    padding-top: 2em;
+   
+   
+
+}
+
+
+
+
+h1 {
+    text-align: center;
+    margin: auto;
+    color: red;
+   
+
+}
+body {
+  background-color: darkslategrey;
+     text-align: center;
+    min-height: 500px;
+    
+    
+    
+    
+}
+
+p {
+    color: rgb(200, 255, 0);
+    font-size: 1rem; 
+     margin: auto;    
+    text-align: center; 
+    font-weight: bolder;
+    line-height: 1em;
+
+}
+
+ ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ ul li {
+    display: inline;
+    
+    
+} 
+a {
+    color: indianred;
+}
+
+a:hover {
+    background-color: yellow;
+    font-weight: bold ;   
+    color: forestgreen;
+  }
+  
+#song {
+   color: darkorange;
+   font-weight: bolder;
+   font-size: larger;
+}
