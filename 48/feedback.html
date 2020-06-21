@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B&L Diner</title>
+    <link rel="stylesheet" href="B&L.css">
+    <link rel="icon" href="sandwich.jpg">
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="copyr"><img src="copyr.jfif" alt="" height=15 width="15"></div> grafix 2020
+    </header>
+    <div class="main">
+        <h1>B&L Diner</h1>
+        <img src="pic1.jpg" alt="B&L Diner" height="300" width="500">
+    </div>
+    <br>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li> |
+            <li><a href="Our Menu.html">Our Menu</a> |
+            <li><a href="pickle.html">Our famous pickle</a></li>
+            <hr>
+            <br>
+            <form method="post" action="feedback.php">
+                <label>First Name:
+                    <input name="firstName" placeholder="Enter your first name" />
+                </label>
+                <label for="lastName">Last Name:</label><input id="lastName" name="lastName"
+                    placeholder="Enter your last name" />
+                <label for="email">Email:</label><input type="email" id="email" name="email"
+                    placeholder="Enter your email" />
+                <label for="DateVisited">DateVisited:</label><input type="date" id="DateVisited" name="DateVisited" />
+                <label for="rating">Please rate 1-10 </label><input type="range" id="rating" name="rating" min="1"
+                    max="10" />
+                <br>
+                <label for="comments"></label><textarea id="comments" name="comments"
+                    placeholder="Please enter some comments"></textarea>
+                <br>
+                <button>Press to submit </button>
+
+            </form>
+</body>
+
+</html>
