@@ -1,0 +1,30 @@
+html{
+    margin: auto;
+    padding: 7em;
+    padding-top: 1em;
+    
+    ;
+    
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    border: 2pix, dashed, greenyellow;
+}
+h1 {
+    color: red;
+}
+body {
+    background-color: blueviolet
+    ;
+}
+
+p {
+    color: blue;}
+    
+p {
+     font-size: 1rem; 
+    }
+p {text-align: justify; 
+}

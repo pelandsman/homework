@@ -4,27 +4,25 @@ html{
     padding: 7em;
     padding-top: 2em;
    
-   
-
 }
-
-
-
 
 h1 {
     text-align: center;
     margin: auto;
     color: red;
-   
-
+    font-family: 'Metal Mania', cursive;
+    font-size: larger;
 }
+
+h4 {
+    font-size: larger;
+    color: red;
+}
+
 body {
   background-color: darkslategrey;
      text-align: center;
     min-height: 500px;
-    
-    
-    
     
 }
 
@@ -35,7 +33,7 @@ p {
     text-align: center; 
     font-weight: bolder;
     line-height: 1em;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
  ul {
@@ -50,6 +48,7 @@ p {
 } 
 a {
     color: indianred;
+    font-size:larger;
 }
 
 a:hover {
@@ -62,4 +61,21 @@ a:hover {
    color: darkorange;
    font-weight: bolder;
    font-size: larger;
+}
+
+header {
+    color: yellowgreen;
+    position: fixed;
+    border: solid 5px rgb(51, 153, 68);
+    border-radius: 50%;
+    width: 140px;
+    height: 30px;
+    line-height: 200%;
+}
+
+.copyr {
+    top: 3px;
+    position: absolute;
+    right: 110px
+     
 }
