@@ -1,0 +1,237 @@
+html {
+    max-width: 90%;
+    margin: auto;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: lightgray;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1em;
+
+    border-radius: 15px 15px 15px 15px;
+
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+header div {
+    display: inline-block;
+    font-style: italic;
+}
+
+body {
+    margin-top: 2em;
+    overflow-x: hidden;
+
+}
+
+section {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+nav ul {
+    background-color: black;
+    border-radius: 15px 15px 15px 15px;
+    color: white;
+    top: 0;
+    display: flex;
+    padding: 0;
+    position: fixed;
+    max-width: 90%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+footer {
+    padding: .3em;
+    background-color: black;
+    border-radius: 15px 15px 15px 15px;
+    color: white;
+    margin: auto;
+    position: fixed;
+    max-width: 90%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+img {
+    display: inline;
+}
+
+
+#signUp {
+    background-color: lightgray;
+    text-align: center;
+    padding: 1em;
+    border-radius: 15px 15px 15px 15px;
+}
+
+input {
+    box-shadow: 1 black;
+}
+
+th {
+    text-align: center;
+}
+
+table {
+
+    table-layout: fixed;
+    border-collapse: collapse;
+    min-width: 800px;
+    max-width: 90%;
+    margin: auto;
+    text-align: right;
+
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: .5em;
+    overflow-x: auto;
+}
+
+caption {
+    padding: .5em;
+    font-weight: bold;
+    caption-side: top;
+}
+
+tbody tr:hover {
+    background-color: blue !important;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+#about {
+    padding: 2.5em;
+    text-align: justify;
+}
+
+.pics table {
+    border-collapse: collapse
+}
+
+.pics table td {
+    border: none;
+    padding: .5em;
+    background-color: white;
+    width: 500px;
+    text-align: left;
+}
+
+.pics .border {
+    border-left: 1px solid black !important;
+    border-right: 1px solid black !important;
+}
+
+.pics table th {
+    text-align: center;
+}
+
+img,
+video {
+    width: 100%;
+}
+
+h3 {
+    text-align: center;
+
+}
+
+p {
+    text-align: justify;
+}
+
+#profit {
+
+    overflow-x: scroll;
+}
+
+table tr td .no {
+    border-right: none
+}
+
+.total {
+    color: red;
+}
+
+input {
+    box-shadow: 2px 4px;
+    margin: 5px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+button {
+    border-radius: 15px 15px 15px 15px;
+}
+
+tr :nth-child(1) {
+    font-weight: bold;
+}
+
+#nb {
+    font-weight: normal;
+}
+
+.no {
+    border-right: none;
+
+
+}
+
+@media screen and (max-width: 1000px) {
+
+
+    input,
+    button,
+    form,
+    label {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+
+    }
+
+    .pics {
+        display: block;
+        border-collapse: collapse
+    }
+
+    .pics td {
+        display: block;
+        border: none;
+        padding: 1em;
+
+    }
+
+    .pics .border {
+        border: none
+    }
+}
